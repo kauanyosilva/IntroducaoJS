@@ -1,8 +1,8 @@
-let num1 =10
-let num2 =5
+let num1 =prompt("informe o 1° valor. ");
+let num2 =prompt("digite o 2° valor. ");
 let num3 =7
 let multi = num1 * num2;
-let soma = num1 + num2;
+let soma =Number (num1) + Number(num2);
 let sub = soma - num3;
 let divisao = multi / num2;
 let base =num1;
